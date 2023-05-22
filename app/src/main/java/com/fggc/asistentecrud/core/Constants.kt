@@ -27,7 +27,7 @@ class Constants {
         // Labels
         const val NOMBRE_COMPLETO = "Nombre Completo"
         const val FECHA_REGISTRO = "Fecha Registro"
-        const val TIPO_SANGRE = "Nombre Completo"
+        const val TIPO_SANGRE = "Tipo de Sangre"
         const val TELEFONO = "Telefono"
         const val CORREO = "Correo"
         const val MONTO_PAGADO = "Monto Pagado"
