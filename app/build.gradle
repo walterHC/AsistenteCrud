@@ -11,7 +11,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.fggc.mascotacrud"
+        applicationId "com.fggc.asistentecrud"
         minSdk 21
         targetSdk 32
         versionCode 1
