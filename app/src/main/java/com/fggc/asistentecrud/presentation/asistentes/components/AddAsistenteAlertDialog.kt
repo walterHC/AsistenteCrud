@@ -76,9 +76,15 @@ fun AddAsistenteAlertDialog(
                     Spacer(
                         modifier = Modifier.height(16.dp)
                     )
-                    BloodTypeInputField(
-                        tipoSangre = tipoSangre,
-                        onBloodTypeSelected = { tipoSangre = it }
+                    OutlinedTextField(
+                        value = tipoSangre,
+                        onValueChange = {tipoSangre = it},
+                        label = {
+                            Text(TIPO_SANGRE)
+                        },
+                        placeholder = {
+                            Text("A/B/AB/O")
+                        }
                     )
                     Spacer(
                         modifier = Modifier.height(16.dp)
